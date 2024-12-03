@@ -1,0 +1,40 @@
+name: fulltugas
+description: "A new Flutter project."
+
+# Prevent accidental publishing to pub.dev
+publish_to: 'none'
+
+# Application version and build number
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  logger: ^1.1.0
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - images/foto1a.jpeg
+    - images/foto1b.jpg
+    - images/foto1c.jpg
+
+  # Uncomment and configure assets if needed
+  # assets:
+  #   - images/example.png
+
+  # Uncomment to include fonts if needed
+  # fonts:
+  #   - family: ExampleFont
+  #     fonts:
+  #       - asset: fonts/Example-Regular.ttf
